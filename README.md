@@ -4,14 +4,13 @@
 
 3. launch the instance
 
-4. update the machine:
-
 ## Commands
-git clone "Your-repository"
+git clone https/github.com/raevmood/mcq-genai
 
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
-python3 -m streamlit run StreamlitAPP.py
+# To run:
+python app.py
 
 # To add gemini api key:
 

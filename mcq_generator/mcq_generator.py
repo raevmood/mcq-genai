@@ -2,8 +2,8 @@ import os
 import json
 from dotenv import load_dotenv
 from operator import itemgetter
-from mcqgenerator.utils import read_file, get_table_data
-from mcqgenerator.logger import logging
+from mcq_generator.utils import read_file, get_table_data
+from mcq_generator.logger import logging
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
