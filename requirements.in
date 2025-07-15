@@ -1,0 +1,7 @@
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+python-dotenv
+pypdf
+pandas
