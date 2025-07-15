@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from mcqgenerator.utils import read_file,get_table_data
 import streamlit as st
 from langchain.callbacks import get_openai_callback
-from MCQGenerator.mcqgenerator.mcq_generator import generate_evaluate_chain
+from MCQGenerator.mcq_generator.mcq_generator import generate_evaluate_chain
 
 #loading json file
 with open('C:\Complete_Content\All_Project\TEST_FOR_EVERYTHING\langchain\Response.json', 'r') as file:

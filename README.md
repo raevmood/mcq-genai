@@ -1,38 +1,20 @@
-1. first login to the AWS: https://aws.amazon.com/console/
+1. Find repo at github.com/raevmood/mcq-genai
 
-2. search about the EC2
+2. clone the repo
 
-3. you need to config the UBUNTU Machine
+3. launch the instance
 
-4. launch the instance
+4. update the machine:
 
-5. update the machine:
-
-sudo apt update
-
-sudo apt-get update
-
-sudo apt upgrade -y
-
-sudo apt install git curl unzip tar make sudo vim wget -y
-
+## Commands
 git clone "Your-repository"
-
-sudo apt install python3-pip
 
 pip3 install -r requirements.txt
 
 python3 -m streamlit run StreamlitAPP.py
 
-##### if you want to add openai api key
+# To add gemini api key:
 
 1. create .env file in your server
-touch .env
-
-vi .env
-#press insert
-#copy your api key and paste it there
-#press and then :wq and hit enter
-
-go with security and add the inbound rule
-add the port 8501
+2. input  key
+3. add the port 8501
